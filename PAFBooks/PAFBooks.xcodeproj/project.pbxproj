@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78F30D7B2CCE9FF5009F7857 /* PAFBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30D7A2CCE9FF5009F7857 /* PAFBooksApp.swift */; };
+		78F30D7D2CCE9FF5009F7857 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30D7C2CCE9FF5009F7857 /* ContentView.swift */; };
+		78F30D7F2CCE9FF6009F7857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F30D7E2CCE9FF6009F7857 /* Assets.xcassets */; };
+		78F30D822CCE9FF6009F7857 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F30D812CCE9FF6009F7857 /* Preview Assets.xcassets */; };
+		78F30D8C2CCE9FF6009F7857 /* PAFBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30D8B2CCE9FF6009F7857 /* PAFBooksTests.swift */; };
+		78F30D962CCE9FF6009F7857 /* PAFBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30D952CCE9FF6009F7857 /* PAFBooksUITests.swift */; };
+		78F30D982CCE9FF6009F7857 /* PAFBooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30D972CCE9FF6009F7857 /* PAFBooksUITestsLaunchTests.swift */; };
+		78F30DA62CCEA0AE009F7857 /* PAFBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30DA52CCEA0AE009F7857 /* PAFBookModel.swift */; };
+		78F30DA92CCEA0F1009F7857 /* PAFImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30DA82CCEA0F1009F7857 /* PAFImageLoader.swift */; };
+		78F30DAC2CCEA124009F7857 /* PAFBooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30DAB2CCEA124009F7857 /* PAFBooksViewModel.swift */; };
+		78F30DAF2CCEA142009F7857 /* PAFBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F30DAE2CCEA142009F7857 /* PAFBooksView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78F30D882CCE9FF6009F7857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F30D6F2CCE9FF5009F7857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F30D762CCE9FF5009F7857;
+			remoteInfo = PAFBooks;
+		};
+		78F30D922CCE9FF6009F7857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F30D6F2CCE9FF5009F7857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F30D762CCE9FF5009F7857;
+			remoteInfo = PAFBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78F30D772CCE9FF5009F7857 /* PAFBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAFBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F30D7A2CCE9FF5009F7857 /* PAFBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFBooksApp.swift; sourceTree = "<group>"; };
+		78F30D7C2CCE9FF5009F7857 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78F30D7E2CCE9FF6009F7857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78F30D812CCE9FF6009F7857 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78F30D872CCE9FF6009F7857 /* PAFBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAFBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F30D8B2CCE9FF6009F7857 /* PAFBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFBooksTests.swift; sourceTree = "<group>"; };
+		78F30D912CCE9FF6009F7857 /* PAFBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAFBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F30D952CCE9FF6009F7857 /* PAFBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFBooksUITests.swift; sourceTree = "<group>"; };
+		78F30D972CCE9FF6009F7857 /* PAFBooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFBooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78F30DA52CCEA0AE009F7857 /* PAFBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFBookModel.swift; sourceTree = "<group>"; };
+		78F30DA82CCEA0F1009F7857 /* PAFImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFImageLoader.swift; sourceTree = "<group>"; };
+		78F30DAB2CCEA124009F7857 /* PAFBooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFBooksViewModel.swift; sourceTree = "<group>"; };
+		78F30DAE2CCEA142009F7857 /* PAFBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAFBooksView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78F30D742CCE9FF5009F7857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F30D842CCE9FF6009F7857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F30D8E2CCE9FF6009F7857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78F30D6E2CCE9FF5009F7857 = {
+			isa = PBXGroup;
+			children = (
+				78F30D792CCE9FF5009F7857 /* PAFBooks */,
+				78F30D8A2CCE9FF6009F7857 /* PAFBooksTests */,
+				78F30D942CCE9FF6009F7857 /* PAFBooksUITests */,
+				78F30D782CCE9FF5009F7857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78F30D782CCE9FF5009F7857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78F30D772CCE9FF5009F7857 /* PAFBooks.app */,
+				78F30D872CCE9FF6009F7857 /* PAFBooksTests.xctest */,
+				78F30D912CCE9FF6009F7857 /* PAFBooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78F30D792CCE9FF5009F7857 /* PAFBooks */ = {
+			isa = PBXGroup;
+			children = (
+				78F30DAD2CCEA13B009F7857 /* View */,
+				78F30DAA2CCEA11B009F7857 /* ViewModel */,
+				78F30DA72CCEA0E5009F7857 /* Helper */,
+				78F30DA42CCEA075009F7857 /* Model */,
+				78F30D7A2CCE9FF5009F7857 /* PAFBooksApp.swift */,
+				78F30D7C2CCE9FF5009F7857 /* ContentView.swift */,
+				78F30D7E2CCE9FF6009F7857 /* Assets.xcassets */,
+				78F30D802CCE9FF6009F7857 /* Preview Content */,
+			);
+			path = PAFBooks;
+			sourceTree = "<group>";
+		};
+		78F30D802CCE9FF6009F7857 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78F30D812CCE9FF6009F7857 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78F30D8A2CCE9FF6009F7857 /* PAFBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				78F30D8B2CCE9FF6009F7857 /* PAFBooksTests.swift */,
+			);
+			path = PAFBooksTests;
+			sourceTree = "<group>";
+		};
+		78F30D942CCE9FF6009F7857 /* PAFBooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78F30D952CCE9FF6009F7857 /* PAFBooksUITests.swift */,
+				78F30D972CCE9FF6009F7857 /* PAFBooksUITestsLaunchTests.swift */,
+			);
+			path = PAFBooksUITests;
+			sourceTree = "<group>";
+		};
+		78F30DA42CCEA075009F7857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78F30DA52CCEA0AE009F7857 /* PAFBookModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78F30DA72CCEA0E5009F7857 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				78F30DA82CCEA0F1009F7857 /* PAFImageLoader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		78F30DAA2CCEA11B009F7857 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78F30DAB2CCEA124009F7857 /* PAFBooksViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78F30DAD2CCEA13B009F7857 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78F30DAE2CCEA142009F7857 /* PAFBooksView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78F30D762CCE9FF5009F7857 /* PAFBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F30D9B2CCE9FF6009F7857 /* Build configuration list for PBXNativeTarget "PAFBooks" */;
+			buildPhases = (
+				78F30D732CCE9FF5009F7857 /* Sources */,
+				78F30D742CCE9FF5009F7857 /* Frameworks */,
+				78F30D752CCE9FF5009F7857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAFBooks;
+			productName = PAFBooks;
+			productReference = 78F30D772CCE9FF5009F7857 /* PAFBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F30D862CCE9FF6009F7857 /* PAFBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F30D9E2CCE9FF6009F7857 /* Build configuration list for PBXNativeTarget "PAFBooksTests" */;
+			buildPhases = (
+				78F30D832CCE9FF6009F7857 /* Sources */,
+				78F30D842CCE9FF6009F7857 /* Frameworks */,
+				78F30D852CCE9FF6009F7857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F30D892CCE9FF6009F7857 /* PBXTargetDependency */,
+			);
+			name = PAFBooksTests;
+			productName = PAFBooksTests;
+			productReference = 78F30D872CCE9FF6009F7857 /* PAFBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78F30D902CCE9FF6009F7857 /* PAFBooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F30DA12CCE9FF6009F7857 /* Build configuration list for PBXNativeTarget "PAFBooksUITests" */;
+			buildPhases = (
+				78F30D8D2CCE9FF6009F7857 /* Sources */,
+				78F30D8E2CCE9FF6009F7857 /* Frameworks */,
+				78F30D8F2CCE9FF6009F7857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F30D932CCE9FF6009F7857 /* PBXTargetDependency */,
+			);
+			name = PAFBooksUITests;
+			productName = PAFBooksUITests;
+			productReference = 78F30D912CCE9FF6009F7857 /* PAFBooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78F30D6F2CCE9FF5009F7857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					78F30D762CCE9FF5009F7857 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					78F30D862CCE9FF6009F7857 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 78F30D762CCE9FF5009F7857;
+					};
+					78F30D902CCE9FF6009F7857 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 78F30D762CCE9FF5009F7857;
+					};
+				};
+			};
+			buildConfigurationList = 78F30D722CCE9FF5009F7857 /* Build configuration list for PBXProject "PAFBooks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78F30D6E2CCE9FF5009F7857;
+			productRefGroup = 78F30D782CCE9FF5009F7857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78F30D762CCE9FF5009F7857 /* PAFBooks */,
+				78F30D862CCE9FF6009F7857 /* PAFBooksTests */,
+				78F30D902CCE9FF6009F7857 /* PAFBooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78F30D752CCE9FF5009F7857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F30D822CCE9FF6009F7857 /* Preview Assets.xcassets in Resources */,
+				78F30D7F2CCE9FF6009F7857 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F30D852CCE9FF6009F7857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F30D8F2CCE9FF6009F7857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78F30D732CCE9FF5009F7857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F30DA92CCEA0F1009F7857 /* PAFImageLoader.swift in Sources */,
+				78F30DAC2CCEA124009F7857 /* PAFBooksViewModel.swift in Sources */,
+				78F30D7D2CCE9FF5009F7857 /* ContentView.swift in Sources */,
+				78F30DAF2CCEA142009F7857 /* PAFBooksView.swift in Sources */,
+				78F30DA62CCEA0AE009F7857 /* PAFBookModel.swift in Sources */,
+				78F30D7B2CCE9FF5009F7857 /* PAFBooksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F30D832CCE9FF6009F7857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F30D8C2CCE9FF6009F7857 /* PAFBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F30D8D2CCE9FF6009F7857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F30D982CCE9FF6009F7857 /* PAFBooksUITestsLaunchTests.swift in Sources */,
+				78F30D962CCE9FF6009F7857 /* PAFBooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78F30D892CCE9FF6009F7857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F30D762CCE9FF5009F7857 /* PAFBooks */;
+			targetProxy = 78F30D882CCE9FF6009F7857 /* PBXContainerItemProxy */;
+		};
+		78F30D932CCE9FF6009F7857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F30D762CCE9FF5009F7857 /* PAFBooks */;
+			targetProxy = 78F30D922CCE9FF6009F7857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78F30D992CCE9FF6009F7857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78F30D9A2CCE9FF6009F7857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78F30D9C2CCE9FF6009F7857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PAFBooks/Preview Content\"";
+				DEVELOPMENT_TEAM = 22UX74K7N2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PAFBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78F30D9D2CCE9FF6009F7857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PAFBooks/Preview Content\"";
+				DEVELOPMENT_TEAM = 22UX74K7N2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PAFBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78F30D9F2CCE9FF6009F7857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22UX74K7N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PAFBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAFBooks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PAFBooks";
+			};
+			name = Debug;
+		};
+		78F30DA02CCE9FF6009F7857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22UX74K7N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PAFBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAFBooks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PAFBooks";
+			};
+			name = Release;
+		};
+		78F30DA22CCE9FF6009F7857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22UX74K7N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PAFBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAFBooks;
+			};
+			name = Debug;
+		};
+		78F30DA32CCE9FF6009F7857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22UX74K7N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PAFBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAFBooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78F30D722CCE9FF5009F7857 /* Build configuration list for PBXProject "PAFBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F30D992CCE9FF6009F7857 /* Debug */,
+				78F30D9A2CCE9FF6009F7857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F30D9B2CCE9FF6009F7857 /* Build configuration list for PBXNativeTarget "PAFBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F30D9C2CCE9FF6009F7857 /* Debug */,
+				78F30D9D2CCE9FF6009F7857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F30D9E2CCE9FF6009F7857 /* Build configuration list for PBXNativeTarget "PAFBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F30D9F2CCE9FF6009F7857 /* Debug */,
+				78F30DA02CCE9FF6009F7857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F30DA12CCE9FF6009F7857 /* Build configuration list for PBXNativeTarget "PAFBooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F30DA22CCE9FF6009F7857 /* Debug */,
+				78F30DA32CCE9FF6009F7857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78F30D6F2CCE9FF5009F7857 /* Project object */;
+}
